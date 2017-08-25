@@ -1,1 +1,31 @@
-Hello, World!
+---
+layout: default
+title: Home
+---
+
+It works!
+
+<div class="home">
+  <div class="post-list">
+
+    {% for post in site.posts %}
+
+    <article class="post">
+      <header class="post_header">
+        <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time>
+      </header>
+        <p>
+          {% if post.description %}
+          {{ post.description}}
+          {% else %}
+          {{ post.excerpt }}
+          {% endif %} 
+        </p> 
+      <hr/>
+    </article>
+
+    {% endfor %}
+  
+  </div>
+</div>
