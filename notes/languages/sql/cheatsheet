@@ -1,0 +1,106 @@
+SQL - Structured Query Language
+
+DDL - Data Definition Language
+(create, drop)
+
+DML - Data Manipulation Language
+(select, insert, delete, update)
+
+Other commands
+(indexes, constraints)
+
+
+Base
+----
+SELECT A1, A2 <- what to return
+FROM R1, R2   <- relations
+WHERE condition <- combine filter
+
+
+SELECT distinct
+
+order by blabla desc
+
+
+like ‘%bla%’
+
+
+SELECT *
+
+
+as blabla
+
+
+union
+intersect
+except
+
+in not in
+
+exist
+
+
+from inner join on
+
+
+
+MySQL
+-----
+mysql -u root -p
+
+SHOW databases;
+
+CREATE DATABASES dbname;
+
+USE dbname;
+
+SHOW tables;
+
+CREATE TABLE
+      (<col-name>, <col-type>,
+       <col-name>, <col-type>);
+
+### Data types ###
+
+varhar(100)
+text
+integer (int), int unsigned
+date, time, datetime
+boolean (bool)
+
+auto_increment
+default
+null, not null
+
+### manipulation ###
+EXPLAIN tableName;
+
+INSERT INTO dbName VALUES (“jhgf”, “hdfdh”, 4);
+INSERT INTO dbNAme(col, col) VALUES (“df”, “df”);
+
+SELECT * FROM tableName;
+SELECT blabla1, blabla2 FROM tableName;
+
+CREATE TABLE tableName (
+    id NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100),
+    phone VARCHAR(10),
+    certDate date,
+    CONSTRAINT tableName_pk PRIMARY KEY (id));
+
+ALTER TABLE oldname RENAME newname;
+ALTER TABLE name ADD colname;
+ALTER TABLE name DROP colname;
+ALTER TABLE name CHANGE old new type;
+
+UPDATE tname SET colname = colname * 24
+
+### Results ###
+limit 5;
+ORDER BY
+ASC, DESC
+GROUP BY
+
+
+UNION
+JOIN

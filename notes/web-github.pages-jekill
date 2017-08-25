@@ -1,0 +1,36 @@
+## Github pages
+
+0. Visit https://pages.github.com/
+1. Create a new repository named username.github.io, where username is your username (or organization name) on GitHub.
+2. Clone the repository
+$ git clone https://github.com/username/username.github.io
+3. Hello World
+$ cd username.github.io
+$ echo "Hello World" > index.html
+4. Add, commit, and push your changes
+$ git add index.html
+$ git commit -m "Initial commit"
+$ git push -u origin master
+
+Go to https://username.github.io
+
+## Jekyll
+
+0. Visit https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+1. Check whether you have Ruby installed
+$ ruby --version
+2. Install bundler
+# emerge -av bundler
+3. Create Gemfile
+$ cd username.github.io
+$ vim Gemfile
+```
+source 'https://rubygems.org'
+gem 'github-pages', group: :jekyll_plugins
+```
+4. Install jekyll and dependencies
+$ bundle install
+5. Test site
+$ bundle exec jekyll serve
+
+Go to http://127.0.0.1:4000

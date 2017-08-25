@@ -1,0 +1,175 @@
+CSS -- Cascading Style Sheets
+=============================
+
+Размещение -- либо <style></style> в head-секции, либо отдельный файл
+stylesheet_name.css, тогда требуется тег link также в секции head.
+
+<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+
+Синтаксис в общем виде:
+selector {
+    property: value;
+}
+
+Селектором может быть любой html элемент.
+
+Комментарий: /* комментарий **/
+
+fall back (Если нет одного шрифта, использовать другой)
+h1 {
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+Длина, ширина, границы
+div {
+  width: 300px;
+  height: 100px;
+  border: 1px solid #4682b4;
+}
+
+Убрать декорации:
+a {
+  text-decoration: none;
+}
+
+
+Пример: button_example
+----------------------
+Скругленные уголки (border-radius):
+div {
+    height: 50px;
+    width: 120px;
+    border: 2px solid #6495ed;
+    background-color: #bcd2ee;
+    border-radius: 5px;
+}
+
+margin:auto -- одинаковое расстояние до каждой стороны.
+
+
+Классы и ID
+-----------
+Вложенные элементы
+<div>
+    <div>
+        <p>bla bla</p>
+
+div div p {
+    /* CSS stuff */
+}
+
+
+Специальный селектор *
+применить к каждому элементу
+* {
+    border: 1px dashed blue;
+}
+
+
+Применить только к прямому дочернему элементу
+div > p { color: red; }
+
+<div>
+  <p>Будет красным.</p>
+  <ul><li><p>не будет красным</p></li></ul>
+</div>
+
+
+Классы
+<div class="square"></div>
+<img class="square"/>
+<td class="square"></td>
+
+.square {
+    height: 100px;
+    width: 100px;
+}
+
+
+id
+<div id="first"></div>
+<div id="second"></div>
+<p id="intro"></p>
+
+#first {
+    height: 50px;
+}
+#second {
+    height: 100px;
+}
+#intro {
+    color: #FF0000;
+}
+
+
+Pseudo-class selector
+selector:pseudo-class_selector {
+    property: value;
+}
+
+Например,
+a:hover {
+  color: #cc0000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+Ссылки
+a:link: An unvisited link.
+a:visited: A visited link.
+a:hover: A link you're hovering your mouse over.
+
+Первый дочерний элемент
+p:first-child {
+    color: red;
+}
+
+N-й дочерний элемент
+p:nth-child(2) {
+    color: red;
+}
+
+
+Позиционирование
+----------------
+1.
+div {
+  display: block;
+}
+
+block -- элемент занимает всю ширину. На строку, где расположился
+блок, нельзя добавить другой элемент.
+
+inline-block -- формирует блок, но позволяет другим элементам быть на
+той же строке.
+
+inline -- элементы на той же строке (линии), что и другие элементы, но
+без формирования блока.
+
+none -- элемент становится невидимым, не занимает место.
+
+2.
+margin -- расстояние вокруг элемента.
+border -- граница элемента
+padding -- расстояние от содержимого до границы (содержимое -- это,
+например текст для <p>)
+
+margin: top right bottom left
+Можно присваивать и отрицательные значения.
+
+3.
+Плавающий элемент (как лодки в воде).
+div {
+  float: right;
+}
+left;
+
+
+element {
+    clear: /*right, left, or both*/
+}
+left -- разместить ниже любого плавающего элементва слева.
+
+4.
+position: absolute;
+fixed;

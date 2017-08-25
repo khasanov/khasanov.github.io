@@ -1,0 +1,120 @@
+Основы I
+--------
+
+Первая строчка начинается с определения языка (в данном случае это
+HTML).
+<!DOCTYPE html>
+
+Далее всегда идет тег <html> -- начало документа, заканчивается всегда
+</html>
+
+Сущности внутри <> называются тегами. Почти всегда теги парные --
+открывающий и закрывающий.  Теги вложенные, последний открытый
+закрывается первым.  <first tag><second tag>Some text!</second
+tag></first tag>
+
+Внутри <head></head> содержится информация о веб-странице, такая, как
+заголовок.
+
+Заголовок <title>Я -- заголовок!</title>
+
+element = <opening tag> + content + <closing tag>
+
+Содержимое, отображаемое на странице, заключается между тегами
+<body></body>.
+
+Параграф: <p>Здесь содержимое параграфа.</p>
+
+Заголовки и подзаговолки -- с <h1> по <h6>.
+
+Изображения -- <img src="url" />
+
+Ссылки -- <a href="url">текст, на который нажимают</a> (слово href
+означает hypertext reference).
+
+
+Основы II
+---------
+
+Нумерованный список (ordered list): <ol></ol> Элемент списка <li>я --
+элемент списка.</li> (list item).
+
+Ненумерованный список (unordered list): <ul></ul> Списки могут быть
+вложены в другие списки (просто вставить между <li></li>).
+
+Комментарии <!-- комментарий -->
+
+Размер шрифта:
+<p style="font-size: 20px">normal size!</p>
+
+Цвет шрифта:
+<p style="color: red;">зелёный</p>
+
+Семейство шрифта:
+<h2 style="font-family: Garamond"></h2>
+
+Цвет фона:
+<ol style="background-color: yellow;"><li>1</li><li>2</li></ol>
+
+Выравнивание текста:
+<h1 style="text-align:center">center<h1>
+(ещё либо left, либо right).
+
+Жирный текст: <strong>bold</strong>.
+
+Курсив: <em>emphasis, italic</em>
+
+
+Основы III
+----------
+
+Таблицы:
+<table></table>
+
+Строка таблицы (table row):
+<tr></tr>
+
+Столбец: <td></td> (table data).
+
+<tbody></tbody> -- содержимое таблицы.
+<thead></thead> -- заголовок таблицы.
+
+Например,
+<table border="1px">
+  <thead>
+    <tr>
+      <th>Famous Monster</th>
+      <th>Birth Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>King Kong</td>
+      <td>1933</td>     
+    </tr>
+    <tr>
+      <td>Dracula</td>
+      <td>1897</td>
+    </tr>
+    <tr>
+      <td>Bride of Frankenstein</td>
+      <td>1935</td>
+    </tr>
+  </tbody>
+</table>
+
+По умолчанию, ячейка занимает 1 колонку.  Атрибут colspan меняет это
+поведение.  <th colspan="3">3 columns across!</th>
+
+<table style="border-collapse:collapse;"> Убирает двойные границы.
+
+<tr style="border-bottom:1px solid black;"> Только нижняя граница,
+сплошная чёрная 1px толщиной.
+
+'Div'ide and conquer
+<div> позволяет разделить страницу на контейнеры.
+
+<span> позволяет контролировать стиль самых маленьких частей страницы,
+таких, как текст.  <p>This text is black, except for the word <span
+style="color: red">red!</span></p>
+
