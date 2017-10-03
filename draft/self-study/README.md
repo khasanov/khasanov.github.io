@@ -8,14 +8,14 @@ Practical Unix playlist (~5h)
 1 Practical Unix: Intro and Motivation 2:18 (Done)
 2 Practical Unix: Intro Command Line Part 1 8:08 (Done)
 3 Practical Unix: Intro Command Line Part 2 8:29 (Done)
-4 Practical Unix: Git Intro 8:52
-5 Practical Unix: Git Online 3:49
-6 Practical Unix: Regular Expressions 1 - Motivation and Basics 5:43
-7 Practical Unix: Regular Expressions 2 - Wildcards and Indefinite Repetition 3:28
-8 Practical Unix: Regular Expressions 3 - Character Classes, Start of Line, End of Line 6:01
-9 Practical Unix: Regular Expressions 4 - Repetitions, ORs, Groups, Word Boundaries, and References 4:49
-10 Practical Unix: Regular Expressions 5 - Lookarounds 2:45
-11 Practical Unix: Regular Expressions 6 - Python 4:06
+4 Practical Unix: Git Intro 8:5 (Done)
+5 Practical Unix: Git Online 3:49 (Done)
+6 Practical Unix: Regular Expressions 1 - Motivation and Basics 5:43 (Done)
+7 Practical Unix: Regular Expressions 2 - Wildcards and Indefinite Repetition 3:28 (Done)
+8 Practical Unix: Regular Expressions 3 - Character Classes, Start of Line, End of Line 6:01 (Done)
+9 Practical Unix: Regular Expressions 4 - Repetitions, ORs, Groups, Word Boundaries, and References 4:49 (Done)
+10 Practical Unix: Regular Expressions 5 - Lookarounds 2:45 (Done)
+11 Practical Unix: Regular Expressions 6 - Python 4:06 (Done)
 12 Practical Unix: Intro 1 - Environment 13:02
 13 Practical Unix: Intro 2 - Shell 20:52
 14 Practical Unix: Intro 3 - Text Editors 12:45
