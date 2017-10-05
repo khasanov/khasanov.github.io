@@ -1,6 +1,6 @@
 # self-study
 
-## Schedule
+## Resources
 
 * Linux basics
 
@@ -16,8 +16,8 @@ Practical Unix playlist (~5h)
 9 Practical Unix: Regular Expressions 4 - Repetitions, ORs, Groups, Word Boundaries, and References 4:49 (Done)
 10 Practical Unix: Regular Expressions 5 - Lookarounds 2:45 (Done)
 11 Practical Unix: Regular Expressions 6 - Python 4:06 (Done)
-12 Practical Unix: Intro 1 - Environment 13:02
-13 Practical Unix: Intro 2 - Shell 20:52
+12 Practical Unix: Intro 1 - Environment 13:02 (Done)
+13 Practical Unix: Intro 2 - Shell 20:52 (Done)
 14 Practical Unix: Intro 3 - Text Editors 12:45
 15 Practical Unix: Intro 4 - Login Shell 5:47
 16 Practical Unix: Intro 5 - ZSH Globbing 24:56
@@ -43,3 +43,20 @@ Practical Unix playlist (~5h)
 
 
 https://stepik.org/course/762 (~10h)
+
+* Mathematical Foundations of Computing
+
+CS103
+- lec0
+Introduction To The Theory Of Computation -- Michael Sipser
+
+- lec1
+The Mystery of the Aleph -- Amir D. Aczel
+https://books.google.ru/books?id=nQinWBLQG3UC&printsec=frontcover&hl=ru#v=onepage&q&f=false
+
+Everything and More: A Compact History of Infinity -- David Foster Wallace
+
+MATH161 Set Theory
+Based on http://www.unalmed.edu.co/~jmramirezo/Jorge_Ramirez/Conjuntos_files/introdiction-to-set-Theory.pdf
+
+
