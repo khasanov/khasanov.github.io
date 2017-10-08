@@ -59,4 +59,11 @@ Everything and More: A Compact History of Infinity -- David Foster Wallace
 MATH161 Set Theory
 Based on http://www.unalmed.edu.co/~jmramirezo/Jorge_Ramirez/Conjuntos_files/introdiction-to-set-Theory.pdf
 
+* 
+CS106A -- in Java
+CS106AJ -- in JavaScript
 
+CS106B 
+CS106X
+
+CS106L -- Lab
