@@ -9,14 +9,153 @@ http://web.stanford.edu/class/cs106a/
 Archive
 http://web.stanford.edu/class/archive/cs/cs106a/cs106a.1176/
 
-## Video (sp2017 https://www.youtube.com/user/martystepp/videos)
-01. Intro and Karel (Done)
-https://www.youtube.com/watch?v=dr38JJh05Jg
-02. Programming Karel 
-https://www.youtube.com/watch?v=fuEIolDqCXI
-03. Problem Solving with Karel 
-https://www.youtube.com/watch?v=Jzp45sWaF-0
+## Video 
+
+Spring 2017 or 2016 (~24h)
+https://www.youtube.com/user/martystepp/videos
+
++ Course introduction; intro to Karel
++ Programming with Karel
++ Problem Solving with Karel
+- Console Programs; Expressions and Variables
+- Control Statements Revisited
+- More Loops; Constants; Random Numbers
+- Parameters
+- Return; Boolean
+- Strings
+- Files
+- Graphics; more Files
+- Events; Fields (no video; see below for videos from last year)
+- Animation; more Events
+- Classes and Objects (no video; see below for videos from last year)
+- Arrays (no video; see below for videos from last year)
+- Multi-dimensional Arrays
+- More Arrays; Discuss Midterm
+- More Classes and Objects; Inheritance
+- Inheritance and Polymorphism
+- Critters
+- GUIs 1
+- GUIs 2
+- GUIs 3
+- Polymorphism and Interfaces
+- "Real" Java
+
+2008 Programming Methodology playlist (~24h)
+https://www.youtube.com/playlist?list=PL84A56BC7F4A1F852
+
+- introduction
+- introduction to Karel; methods, control statements
+- Problem solving with Karel
+- Basic Graphical programs (we cover graphics later this quarter; you can skip this one for now)
+- Variables and expressions (there is some coverage of graphics here, which we haven't covered yet)
+- More expressions; Java control statements; logic; scope and constants
+- More Java control statements; more graphics; parameters and return
+- Classes and objects; random numbers
+- More classes and objects; constructors; inheritance
+- More inheritance; graphics
+- Graphics and animation; events
+- Strings
+- More strings
+- Memory allocation, stack and heap
+- File processing (note: Mehran shows an older file I/O library that we won't use this quarter.)
+- Arrays and ArrayList
+- More ArrayList; multi-dimensional arrays
+- More Array/ArrayList; testing and debugging
+- HashMap
+- GUIs with Swing
+- GUI events; layout
+- More GUIs
+- Searching and sorting
+- Classes, objects, and hierarchies
+- Threads and concurrency
+- Standard Java; JAR files 
+
 
 ## Books
 - Roberts, Eric S. The Art & Science of Java.
 - Roberts, Eric S. Karel the Robot Learns Java.
+
+## Assignments, lectures, problems
+http://www.codestepbystep.com/problem/view/java/karel/MeetKarel
+
+http://stanford.edu/~cpiech/karel/learn.html -- Karel online
+
+https://github.com/chrispiech/cs106a-winter-2017 -- CS106A Winter 2017 Website
+
+
+## Related
+CS101 Introduction to Computing Principles AKA
+Computer Science 101
+https://lagunita.stanford.edu/courses/Engineering/CS101/Summer2014/about
+
+CS105 Introduction to Computing
+Lecture 1: Computer Architecture Overview
+Lecture 2: Representation of Information
+Lecture 3: Digital Music
+Lecture 4: Digital Photos and Computer Graphics
+Lecture 5: Computer Networks & the Internet 
+Lecture 6: The Internet & the Web 
+Lecture 7: Intro to HTML with CSS
+Lecture 8: Exploring CSS
+Lecture 9: Exploring HTML and CSS 
+Lecture 10: HTML Layout
+Lecture 11: HTML Layout(cont)
+Lecture 12: HTML Forms
+Lecture 13: Advanced HTML
+Lecture 14: Advanced HTML & CSS
+Lecture 15: Advanced HTML & CSS
+Lecture 16 Review 
+Lecture 16: Midterm
+Lecture 17: Website Design
+Lecture 18: Introduction to PHP
+Lecture 19: Exploring PHP
+Lecture 20: Programming
+Lecture 21: Programming 
+Lecture 22: Programming 
+Lecture 23: Programming
+Lecture 24: Security Part I
+Lecture 25: Security Part II
+Lecture 26: Security Part III
+Lecture 27: Future Trends in Computing
+Lecture 28: TBD
+Lecture 29: Review
+
+is the same?
+Principles of Computing
+https://lagunita.stanford.edu/courses/OLI/PrinciplesOfComputing/Open/about
+
+
+CS106J The same as 106A course but in JavaScript
+https://web.stanford.edu/class/cs106j/
+
+01-CS106J-Introduction
+02-Programming-In-Karel
+03-Stepwise-Refinement
+04-Introduction-To-JavaScript
+05-Strings-And-Graphics
+06-Control-Statements
+07-Functions-And-Libraries
+08-Mechanics-Of-Functions
+09-Interactive-Graphics 
+10-Timer-Based-Animation
+11-Graphical-Structures
+12-Binary-Representation
+13-Strings-In-JavaScript
+14-String-Applications
+15-Cryptography
+16-Debugging
+17-Arrays-And-Files
+18-Arrays-For-Tabulation
+19-Multidimensional-Arrays
+20-ObjectsAsAggregates
+21-JavaScriptAndOOP
+22-ObjectsAsMaps
+23-Data-Driven-Programs
+24-Adventure
+25-JavaScriptAndTheWeb
+
+CS106B Programming Abstractions -- successor
+
+CS106X Same as 106B but accelerated
+
+CS106L Lab

@@ -25,11 +25,10 @@ Everything and More: A Compact History of Infinity -- David Foster Wallace
 MATH161 Set Theory
 Based on http://www.unalmed.edu.co/~jmramirezo/Jorge_Ramirez/Conjuntos_files/introdiction-to-set-Theory.pdf
 
-* 
-CS106A -- in Java
-CS106AJ -- in JavaScript
+* Stanford
 
-CS106B 
-CS106X
-
-CS106L -- Lab
+CS1C Introduction to Computing at Stanford
+CS2C Introduction to Media Production
+CS142 Web Applications
+CS193C Client-Side Internet Technologies
+CS193P iPhone and iPad Application Programming
