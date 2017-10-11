@@ -1,0 +1,37 @@
+GDB
+===
+
+https://www.gnu.org/software/gdb/
+
+## Intro 
+
+$ gcc -g segfault.c -o segfault
+$ gdb segfault
+
+run program
+(gdb) r
+
+list sources of a function
+(gdb) list main
+
+set breakpoint to a function
+(gdb) b main
+
+set breakpoint to a line in a file
+(gdb) b segfault.c:87
+
+continue
+(gdb) c
+
+next statement
+(gdb) n
+
+print
+(gdb) p i
+
+display (print in each next)
+(gdb) disp i
+
+quit
+(gdb) q
+

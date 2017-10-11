@@ -44,5 +44,5 @@ https://www.youtube.com/playlist?list=PLAn5BRyzQEf9VoK8gRKp8Z0LGME6fISaE
 + Practical Unix: Curl 1 - Intro 4:47
 + Practical Unix: Curl 2 - Web Requests 8:47
 + Practical Unix: Curl 3 - Customizing Web Requests 13:33
-- Practical Unix: GDB Essentials 1 15:16
-- Practical Unix: GDB Essentials 2 32:28
++ Practical Unix: GDB Essentials 1 15:16
++ Practical Unix: GDB Essentials 2 32:28
