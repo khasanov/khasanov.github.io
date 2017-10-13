@@ -73,7 +73,7 @@ https://www.youtube.com/playlist?list=PL84A56BC7F4A1F852
 
 ## Books
 - Roberts, Eric S. The Art & Science of Java.
-- Roberts, Eric S. Karel the Robot Learns Java.
++ Roberts, Eric S. Karel the Robot Learns Java.
 
 ## Assignments, lectures, problems
 http://www.codestepbystep.com/problem/view/java/karel/MeetKarel
