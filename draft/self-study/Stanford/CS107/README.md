@@ -1,0 +1,46 @@
+CS107
+=====
+
+Computer Organization and Systems
+
+cs107.stanford.edu
+https://cs107e.github.io/
+
+## Video
+
+https://www.youtube.com/playlist?list=PLD28639E2FFC4B86A
+
+17:25   Lecture 1: Programming Paradigms
+51:03   Lecture 2: C/C++ Data Types - Interpretations
+52:48   Lecture 3: Converting Between Types of Different Sizes and Bit Representations Using Pointers
+51:26   Lecture 6: Integer Stack Implementation - Constructor and Destructor
+50:43   Lecture 8: Heap Management - How Information about Allocations are Stored in the Heap
+51:45   Lecture 9 How a Code Snippet is Translated into Assembly Instructions
+47:08   Lecture 10: More Detail about Activation Records - Layout of Memory During a Function Call
+51:47   Lecture 11: Moving from C Code Generation to C++ Code Generation: Basic Swap Example
+50:19   Lecture 12: Preprocessing Commands - #Define as a Glorified Find and Replace
+52:26   Lecture 13: Review of Compilation Process of a Simple Program Into a .O File
+44:37   Lecture 14: Example in Which Writing Past the End of Array Causes the Return Address of the Function to be Overwritten
+52:50   Lecture 15: Transitioning from Sequential Programming to Concurrent Programming in the Ticket Sale Example
+51:31   Lecture 16: Review of Semaphore Syntax
+48:59   Lecture 17: Review of the Dining Philosopher Problem
+57:54   Lecture 18: Guest Lecturer
+51:57   Lecture 19: Imperative/Procedural Paradigms (C) and Object-Oriented Paradigm(C++)
+51:45   Lecture 20: Car-Cdr Recursion Problem that Returns the Sum of Every Element in a List of Integers
+50:29   Lecture 21: Introduction to the Kawa Development Environment: Evaluation of Expressions
+53:24   Lecture 22: Writing a Recursive Power Set Function in Scheme
+50:19   Lecture 23: Scheme Memory Model - How Scheme Instructions Synthesize Linked Lists Behind the Scenes and Perform Operations on Them
+48:38   Lecture 24: Overarching Features of Python: Scripting Language
+48:45   Lecture 25: Rewriting RSG to Illustrate all Three Paradigms and Lambdas in Python
+49:49   Lecture 26: XML Processing and Python - Two Different XML Processing Models
+
+
+
+
+## Lecture slides
+
+## Books
+
+## Log
+
+## Related
