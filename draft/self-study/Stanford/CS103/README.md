@@ -57,12 +57,20 @@ A Brief History of Infinity pp.20-40
 
 2017-08-09
 Complete aBHoI
+Handouts:
 07: Guide to Proofs
 80: Mathematical Vocabulary
 90: Guide to Indirect Proofs
 
 2017-10-08
 Complete course reading
+
+2017-11-05
+Sipser:
+0 Introduction
+1 Regular Languages
+All handouts
+
 
 ## Related
 CS103A add-on
