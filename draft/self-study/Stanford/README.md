@@ -13,3 +13,7 @@ See CS1U.md
 * CS103 -- Mathematical Foundations of Computing
 
 See CS103.md
+
+* CS154 -- Introduction to Automata and Complexity Theory
+
+See CS154.md
